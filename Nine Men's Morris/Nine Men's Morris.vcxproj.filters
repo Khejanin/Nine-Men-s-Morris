@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{85a9312b-f661-45cf-ba95-c358528853d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Board">
+      <UniqueIdentifier>{9b7f5d96-44d4-4f70-93fc-505d7918837d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{ebf6e830-4193-4fc6-aeac-474733b8bcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Board">
+      <UniqueIdentifier>{08c5d089-d14d-4543-8b1d-ac2be0cf228b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O">
+      <UniqueIdentifier>{6fc38e98-cdd8-417a-962f-7fc82696aeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\I/O">
+      <UniqueIdentifier>{c7cb8018-3842-49b8-8398-c9c3f1799a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O\Base">
+      <UniqueIdentifier>{84c3be19-a9e1-4358-9539-8281a19e2111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O\Base\Input">
+      <UniqueIdentifier>{2e4a0e35-1d1f-4017-8de4-0d8425d17c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O\Base\Output">
+      <UniqueIdentifier>{6ddc9a52-c8e8-4fba-8a5d-3cca9bcc5528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O\Input">
+      <UniqueIdentifier>{754ce8cf-b654-4ec8-a80d-178e340248e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\I/O\Output">
+      <UniqueIdentifier>{730d401c-dda7-42ee-8384-829bab7fe728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Exceptions">
+      <UniqueIdentifier>{3a04e253-c41b-47e0-8450-dda137772174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Player">
+      <UniqueIdentifier>{bea6653a-f28e-4346-aedd-ce27399691bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Containers">
+      <UniqueIdentifier>{b7c3eaf4-b46a-4666-a726-300adff291cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input Middleware">
+      <UniqueIdentifier>{a99189d3-4f44-47e7-90e3-3520ed6864cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Containers">
+      <UniqueIdentifier>{80fee146-2e90-4ef4-a3d9-63610dc15a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Player">
+      <UniqueIdentifier>{dc5d8d78-0613-4c61-96f5-46aaf120669a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input Middleware">
+      <UniqueIdentifier>{ccf96ea7-775a-4176-83c8-7a8b3f02a964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nine Men%27s Morris.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInputManager.cpp">
+      <Filter>Source Files\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardSpace.cpp">
+      <Filter>Source Files\Game\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\Game\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutputManager.cpp">
+      <Filter>Source Files\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleIOManager.cpp">
+      <Filter>Source Files\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsolePrinter.cpp">
+      <Filter>Source Files\I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files\Game\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\Player.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\JumpingPlayerStrategy.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\MovingPlayerStrategy.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSanitizerProxy.cpp">
+      <Filter>Source Files\Input Middleware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameState.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameStateMain.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameStatePlacing.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InputToPositionConverter.cpp">
+      <Filter>Source Files\Input Middleware</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\Game\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardSpace.h">
+      <Filter>Header Files\Game\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleIOManager.h">
+      <Filter>Header Files\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Header Files\I/O\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputManager.h">
+      <Filter>Header Files\I/O\Base\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Header Files\I/O\Base\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\I/O\Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedPrinter.h">
+      <Filter>Header Files\I/O\Base\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInputManager.h">
+      <Filter>Header Files\I/O\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutputManager.h">
+      <Filter>Header Files\I/O\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolePrinter.h">
+      <Filter>Header Files\I/O\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\BoardSpaceOccupiedException.h">
+      <Filter>Header Files\Game\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\PlayerStrategy.h">
+      <Filter>Header Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\JumpingPlayerStrategy.h">
+      <Filter>Header Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\MovingPlayerStrategy.h">
+      <Filter>Header Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Game\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\Game\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameState.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameStateMain.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\GameStatePlacing.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSanitizerProxy.h">
+      <Filter>Header Files\Input Middleware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Semester 4 Nine Men%27s Morris Exam\Nine Men%27s Morris\Nine Men%27s Morris\LoseCondition.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files\Game\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputToPositionConverter.h">
+      <Filter>Header Files\Input Middleware</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Nine Men%27s Morris.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
